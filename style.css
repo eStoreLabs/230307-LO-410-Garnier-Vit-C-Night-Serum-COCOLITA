@@ -21,7 +21,7 @@ body {
   overflow: hidden;
   color: #111;
   background: #fff;
-  max-width: 998px;
+  max-width: 1300px;
 }
 
 #es-garnier.es-garnier * {
@@ -98,6 +98,10 @@ body {
   letter-spacing: -1px;
 }
 
+#es-garnier.es-garnier .es-kv__subtitle span {
+  font-weight: bold;
+}
+
 #es-garnier.es-garnier .es-kv__accent {
   margin: 0;
   padding: 0;
@@ -159,10 +163,10 @@ body {
     justify-content: center;
   }
   #es-garnier.es-garnier .es-kv__title {
-    font-size: 40px;
+    font-size: 33px;
   }
   #es-garnier.es-garnier .es-kv__subtitle {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   #es-garnier.es-garnier .es-kv__photo {
@@ -182,9 +186,9 @@ body {
     display: flex;
   }
 
-  #es-garnier.es-garnier .es-kv__content img {
+  /* #es-garnier.es-garnier .es-kv__content img {
     min-height: 357px;
-  }
+  } */
   #es-garnier.es-garnier .es-kv__image {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
@@ -336,7 +340,7 @@ body {
   }
 
   #es-garnier.es-garnier .es-intro h3 {
-    font-size: 27px;
+    font-size: 25px;
     margin-bottom: 24px;
   }
 
@@ -362,7 +366,7 @@ body {
     grid-area: drop;
     position: relative;
     z-index: 99;
-    top: -30px;
+    top: -109px;
     margin-left: 120px;
   }
 }
@@ -465,6 +469,10 @@ body {
   padding: 20px 0;
 }
 
+#es-garnier.es-garnier .es-benefits__text span {
+  font-weight: bold;
+}
+
 #es-garnier.es-garnier .es-benefits__packshot {
   margin-top: -48px;
   position: relative;
@@ -543,7 +551,7 @@ body {
 }
 
 #es-garnier.es-garnier .es-ingredients__img {
-  max-width: 65%;
+  max-width: 50%;
   display: block;
   margin: 0 auto;
 }
@@ -881,6 +889,10 @@ body {
   font-family: inherit;
   font-weight: inherit;
   width: 36ch;
+}
+
+#es-garnier.es-garnier .es-info__text span {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 998px) {
